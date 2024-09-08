@@ -1,39 +1,25 @@
 body {
-    margin: 0;
     font-family: "Helvetica", "Arial", sans-serif;
 
+    margin: 0;
 }
 
 
 header .background_image {
-    background-image: url("https://img.freepik.com/free-photo/fantasy-endless-hole-landscape_23-2151639688.jpg?t=st=1725729646~exp=1725733246~hmac=9b10228a77350c3ddba85577db7c87f997381775e1b9fdcf7643fbe04bf63b44&w=1380");
+    background-image: url(../Content/wp-pixel-art-wallpapers.png);
     background-size: cover;
     background-repeat: no-repeat;
 
     display: flex;
     align-items: flex-start;
-    justify-content: right;
+    justify-content: center;
 
     margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
 
     width: 100%;
-    height: 500px;
-}
-
-
-header .menu {
-    display: flex;
-    justify-content: left;
-    align-items: center;
-
-    background-color: #62136e2f;
-    width: 80%;
-    height: 80px;
-    border-radius: 50px;
-    box-shadow: 0px 0px 30px black;
-
-    margin-right: 20px;
-    margin-top: 20px;
+    height: 600px;
 }
 
 
@@ -44,20 +30,72 @@ header .logo {
 
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
-    box-shadow: 0px 0px 30px black;
 
-    background-color: #62136e2f;
+    box-shadow: 0px 0px 10px black;
+    background-color: #4573A3;
+    margin-left: 10px;
 
-    width: 80px;
-    height: 100px;
-
-    margin-right: 20px;
+    width: 90px;
+    height: 110px;
 }
 
 
 header .name {
+    font-family: "Helvetica", "Arial", sans-serif;
+
     font-weight: 900;
     font-size: 40px;
     color: white;
-    margin-left: 30px;
+
+    margin-top: 25px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+header .menu_background {
+    display: flex;
+    justify-content: left;
+    align-items: right;
+
+    background-color: #62136e2f;
+    width: 600px;
+    height: 80px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 20px black;
+
+    margin-right: 600px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+header table {
+    margin-left: 15px;
+}
+
+header .menu_buttons {
+    font-weight: 600;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+header .menu_btn {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 30px;
+    width: 150px;
+    height: 35px;
+}
+
+
+header .menu_btn:hover {
+    text-decoration-line: underline;
+}
+
+header .menu_btn:active {
+    color: #292D57;
 }
