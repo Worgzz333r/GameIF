@@ -14,16 +14,12 @@ header .background_image {
     align-items: flex-start;
     justify-content: center;
 
-    margin: 0 auto;
-    padding-left: 10px;
-    padding-right: 10px;
-
     width: 100%;
     height: 600px;
 }
 
 
-header .logo {
+header .logo_bg {
     display: flex;
     align-items: baseline;
     justify-content: center;
@@ -32,13 +28,19 @@ header .logo {
     border-bottom-right-radius: 15px;
 
     box-shadow: 0px 0px 10px black;
-    background-color: #4573A3;
-    margin-left: 10px;
+    background-color: #4573A34f;   
+    padding-top:10px;
+    
+    margin-right: 10px;
 
     width: 90px;
-    height: 110px;
+    height: 120px;
 }
 
+header .logo {
+    width: 110px;
+    height: 110px;
+}
 
 header .name {
     font-family: "Helvetica", "Arial", sans-serif;
@@ -47,25 +49,21 @@ header .name {
     font-size: 40px;
     color: white;
 
-    margin-top: 25px;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-top: 30px;
+    margin-right: 120px;
 }
 
 
-header .menu_background {
+header .menu_bg {
     display: flex;
-    justify-content: left;
-    align-items: right;
+    position: relative;
 
     background-color: #62136e2f;
-    width: 600px;
+    width: 550px;
     height: 80px;
     border-radius: 50px;
-    box-shadow: 0px 0px 20px black;
+    box-shadow: 0px 0px 10px black;
 
-    margin-right: 600px;
-    margin-left: 100px;
     margin-top: 20px;
 }
 
@@ -98,4 +96,47 @@ header .menu_btn:hover {
 
 header .menu_btn:active {
     color: #292D57;
+}
+
+header .login_bg{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+
+    background-color: #62136e2f;
+    width: 300px;
+    height: 80px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px black;
+
+    margin-top: 20px;
+    margin-left: 150px;
+
+    padding-right: 10px;
+}
+
+
+header .login_btn{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    background-color: transparent;
+    border: 0px solid white;
+    border-radius: 30px;
+    width: 150px;
+    height: 35px;
+}
+
+header .login_btn:hover {
+    text-decoration-line: underline;
+}
+
+header .login_btn:active {
+    color: #292D57;
+}
+
+header .pfp-logo{
+    width: 70px;
+    height: 70px;
 }
