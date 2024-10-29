@@ -1,18 +1,20 @@
 body {
     margin: 0;
-    font-family: 'Pixelify Sans';
+    font-family: "Quando", serif;
     font-style: normal;
 }
 
+
+/* HEADER-CSS */
 header .header-bg {
     position: relative;
-    background: url(../Content/main-page/interface/header-background.png);
+    background: url(../Content/game-pages/dead-cells-background.jpg);
     background-position-x: center;
     background-repeat: no-repeat;
     background-size: cover;
 
     width: 100%;
-    height: 502.95px;
+    height: 683px;
 
     box-shadow: 0px 30px 52px 4px #05152D;
     z-index: 5;
@@ -20,6 +22,8 @@ header .header-bg {
 
 header .menu-bg {
     position: fixed;
+    font-family: 'Pixelify Sans';
+    font-style: normal;
 
     top: 0px;
     width: 100%;
@@ -57,7 +61,7 @@ header .main-menu-bg {
     height: 50px;
 
     top: 13px;
-    left: 350px;
+    left: 850px;
     background: rgba(88, 97, 118, 0.52);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.50));
     border-radius: 53px;
@@ -98,62 +102,141 @@ header .btn {
     color: #FFFFFF;
 }
 
+header .link{
+    color: white;
+    text-decoration: none;
+}
 
-header .btn:hover {
+header .link:hover {
     color: #27D6B6;
 }
 
-header .btn:active {
+header .link:active {
     color: #7D90BD;
 }
 
-header .login-bg {
-    position: absolute;
-    width: 425px;
-    height: 50px;
-
-    left: 1025px;
-    top: 13px;
-
-    background: rgba(88, 97, 118, 0.52);
-    border-radius: 53px;
+header .link{
+    color: white;
+    text-decoration: none;
 }
 
-header .log-in-btn {
-    top: 14px;
-    left: 27px;
+header .g-link{
+    color: #00F0F3;
+    text-decoration: none;
 }
 
-header .sign-up-btn {
-    top: 14px;
-    left: 206.02px;
+header .g-link:hover{
+    text-decoration: underline 1px solid #00F0F3;
 }
 
-header .login-png {
-    position: absolute;
-    width: 50px;
-    height: 50px;
-
-    right: 2px;
-}
-
-header .bot-text {
+header .game-title {
     position: relative;
-    width: 952px;
 
-    font-weight: 400;
-    font-size: 32px;
+    top: 140px;
+    left: 20px;
+
+    font-weight: bold;
+    font-size: 45px;
+    text-align: left;
+
+    color: #890471;
+}
+
+header .list-menu-bg {
+    position: relative;
+    width: 170px;
+    height: 252px;
+
+    top: 281px;
+    left: 37px;
+    text-align: left;
+
+    background: rgba(0, 0, 0, 0.41);
+    border-radius: 15px;
+}
+
+header .guides-list {
+    position: relative;
+    left: 0px;
+}
+
+header .list-title {
+    font-weight: 500;
+    font-size: 30px;
     text-align: center;
 
     color: #FFFFFF;
-    width: 952px;
+}
 
-    margin: auto;
-    top: 324px;
+header .list-p {
+    font-size: 20px;
+    text-align: left;
+
+    color: #00F0F3;
+
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+header .req-p {
+    list-style: none;
+    margin-top: 15px;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+}
+
+header .req-title {
+    font-weight: 600;
+    font-size: 20px;
+    text-shadow: 1px 1px 5px black;
+}
+
+header .system-requirements {
+    position: absolute;
+
+    top: 215px;
+    left: 1000px;
+
+    width: 470px;
+    height: 384px;
+
+    font-weight: 400;
+    font-size: 17px;
+
+    color: white;
+}
+
+.system {
+    color: #FFAFAF;
+}
+
+.os {
+    color: #FFBF91;
+}
+
+.processor {
+    color: #FFFBA4;
+}
+
+.memory {
+    color: #BBFBB5;
+}
+
+.graphics {
+    color: #A0E2FF;
+}
+
+.directx {
+    color: #B8BBFF;
+}
+
+.storage {
+    color: #D0A1FF;
 }
 
 
 
+/* MAIN-CSS */
 
 
 
@@ -163,97 +246,97 @@ main .main-bg {
 
     padding-bottom: 97px;
 
-    background: url(../Content/main-page/interface/main-background.png);
+    background: url(../Content/game-pages/general/main-background.png);
 
     z-index: 3;
 }
 
-main .top-text {
-    position: relative;
-    margin: auto;
-
-    top: 50px;
-
+main .title {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    margin: 0px;
+    text-align: center;
     font-weight: 700;
     font-size: 48px;
-
-    text-align: center;
 
     color: #FFFFFF;
 }
 
-main .page-string {
-    display: flex;
-    justify-content: center;
-    column-gap: 54px;
-
-    position: relative;
-    margin: auto;
-    margin-top: 80px;
-
-    height: 409px;
-
-    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.50));
+main .bold {
+    font-weight: bold;
 }
 
-main .page {
-    position: relative;
-    width: 251px;
-    height: 409px;
+main .text {
 
-    border-radius: 21px;
-
-    background: #21182C;
-    text-align: center;
-}
-
-main .page-text {
-    font-weight: 600;
+    font-weight: medium;
     font-size: 20px;
-    color: #27D6B6;
+
+    color: #FFFFFF;
 }
 
-main .page-text:hover {
-    color: #27D6B6;
-    text-decoration: solid underline #27D6B6 2px;
+main .text-container {
+    margin-left: 40px;
 }
 
-main .page-text:active {
-    color: #7D90BD;
-    text-decoration: solid underline #7D90BD 2px;
+main .outer-p {
+    width: 900px;
 }
 
-main .page-png {
-    width: 251px;
-    height: 375px;
-
-    border-radius: 19px 19px 0px 0px;
+main .inner-p {
+    margin-left: 20px;
+    width: 850px;
 }
 
-main .arrow {
-    text-decoration: none;
-    color: white;
+main .lower-title {
+    padding-top: 10px;
+    font-weight: 600;
 }
 
-main .next-page-arrow {
-    box-sizing: border-box;
+main .lower-p {
+    width: 1400px;
+    margin-left: 20px;
+}
 
+main .sec-lower-p {
+    margin: 20px;
+    width: 1100px;
+}
+
+main .game-card-panel {
     position: absolute;
-    margin-top: 10px;
-    right: 170px;
+    left: 1150px;
+    text-align: center;
 
+    width: 251px;
+    height: max-content;
+    border-radius: 15px;
+    filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.5));
+
+    background-color: #0A0122;
+    font-size: 13px;
+}
+
+main .game-card-img {
+    border-radius: 15px 15px 0px 0px;
+}
+
+main table {
     color: white;
-    font-size: 45px;
 }
 
-main .game-link{
-    text-decoration: none;
+main td {
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+main .left-td{
+    color: #FF13D9;
 }
 
 
 
-
-
+/* FOOTER-CSS */
 
 footer .footer-bg {
     width: 100%;
@@ -261,7 +344,7 @@ footer .footer-bg {
     left: 0px;
     top: 1662px;
 
-    background: url(../Content/main-page/interface/footer-background.png);
+    background: url(../Content/game-pages/general/footer-background.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -297,7 +380,7 @@ footer .about {
 
 
     font-weight: 700;
-    font-size: 48px;
+    font-size: 40px;
     text-align: center;
 
     color: #FFFFFF;
@@ -308,13 +391,11 @@ footer .social-media-link {
     justify-content: center;
     position: relative;
 
-margin-top: 10px;
-
-    font-family: 'Pixelify Sans';
+    margin-top: 10px;
+   
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
-    line-height: 29px;
     text-align: center;
 
     color: #FFFFFF;
@@ -324,7 +405,7 @@ footer .link-png {
     height: 36px;
 }
 
-footer .social-link{
+footer .social-link {
     color: #FFFFFF;
     text-decoration: none;
 }
@@ -339,14 +420,14 @@ footer .social-link:active {
     text-decoration: solid underline #7D90BD 2px;
 }
 
-footer .made-by{
+footer .made-by {
     margin-top: 120px;
     margin-right: 5px;
 
-font-weight: 700;
-font-size: 13px;
+    font-weight: 700;
+    font-size: 13px;
 
-text-align: right;
+    text-align: right;
 
-color: #FFFFFF;
+    color: #FFFFFF;
 }

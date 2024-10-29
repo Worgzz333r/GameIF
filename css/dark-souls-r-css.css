@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: 'Pixelify Sans';
+    font-family: "Quando", serif;
     font-style: normal;
 }
 
@@ -9,7 +9,7 @@ body {
 
 header .header-bg {
     position: relative;
-    background: url(../Content/game-pages/dark_souls_background.jpg);
+    background: url(../Content/game-pages/dark-souls-background.jpg);
     background-position-x: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23,6 +23,8 @@ header .header-bg {
 
 header .menu-bg {
     position: fixed;
+    font-family: 'Pixelify Sans';
+    font-style: normal;
 
     top: 0px;
     width: 100%;
@@ -54,13 +56,27 @@ header .name {
     color: #FFFFFF;
 }
 
+header .link{
+    color: white;
+    text-decoration: none;
+}
+
+header .g-link{
+    color: #BD00FF;
+    text-decoration: none;
+}
+
+header .g-link:hover{
+    text-decoration: underline 1px solid #BD00FF;
+}
+
 header .main-menu-bg {
     position: absolute;
     width: 600px;
     height: 50px;
 
     top: 13px;
-    left: 350px;
+    left: 850px;
     background: rgba(88, 97, 118, 0.52);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.50));
     border-radius: 53px;
@@ -101,60 +117,18 @@ header .btn {
     color: #FFFFFF;
 }
 
+header .link{
+    color: white;
+    text-decoration: none;
+}
 
-header .btn:hover {
+header .link:hover {
     color: #27D6B6;
 }
 
-header .btn:active {
+header .link:active {
     color: #7D90BD;
 }
-
-header .login-bg {
-    position: absolute;
-    width: 425px;
-    height: 50px;
-
-    left: 1025px;
-    top: 13px;
-
-    background: rgba(88, 97, 118, 0.52);
-    border-radius: 53px;
-}
-
-header .log-in-btn {
-    top: 14px;
-    left: 27px;
-}
-
-header .sign-up-btn {
-    top: 14px;
-    left: 206.02px;
-}
-
-header .login-png {
-    position: absolute;
-    width: 50px;
-    height: 50px;
-
-    right: 2px;
-}
-
-header .bot-text {
-    position: relative;
-    width: 952px;
-
-    font-weight: 400;
-    font-size: 32px;
-    text-align: center;
-
-    color: #FFFFFF;
-    width: 952px;
-
-    margin: auto;
-    top: 324px;
-}
-
 
 header .game-title {
     position: relative;
@@ -166,7 +140,7 @@ header .game-title {
     font-size: 45px;
     text-align: left;
 
-    color: #FFFFFF;
+    color: #E7C889;
 }
 
 header .list-menu-bg {
@@ -191,14 +165,14 @@ header .guides-list {
 
 header .list-title {
     font-weight: 500;
-    font-size: 32px;
+    font-size: 30px;
     text-align: center;
 
     color: #FFFFFF;
 }
 
 header .list-p {
-    font-size: 24px;
+    font-size: 20px;
     text-align: left;
 
     color: #BD00FF;
@@ -211,11 +185,13 @@ header .req-p {
     list-style: none;
     margin-top: 15px;
     color: white;
+    text-shadow: 1px 1px 5px black;
 }
 
 header .req-title {
     font-weight: 600;
-    font-size: 24px;
+    font-size: 20px;
+    text-shadow: 1px 1px 5px black;
 }
 
 header .system-requirements {
@@ -228,7 +204,7 @@ header .system-requirements {
     height: 384px;
 
     font-weight: 400;
-    font-size: 20px;
+    font-size: 17px;
 
     color: white;
 }
@@ -284,7 +260,7 @@ main .title {
     margin: 0px;
     text-align: center;
     font-weight: 700;
-    font-size: 48px;
+    font-size: 45px;
 
     color: #FFFFFF;
 }
@@ -296,7 +272,7 @@ main .bold {
 main .text {
 
     font-weight: medium;
-    font-size: 24px;
+    font-size: 20px;
 
     color: #FFFFFF;
 }
@@ -325,7 +301,7 @@ main .lower-p {
 }
 
 main .sec-lower-p {
-    margin: 20px;
+    margin-left: 20px;
     width: 1100px;
 }
 
@@ -340,6 +316,7 @@ main .game-card-panel {
     filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.5));
 
     background-color: #0A0122;
+    font-size: 13px;
 }
 
 main .game-card-img {
@@ -406,7 +383,7 @@ footer .about {
 
 
     font-weight: 700;
-    font-size: 48px;
+    font-size: 40px;
     text-align: center;
 
     color: #FFFFFF;
@@ -419,11 +396,9 @@ footer .social-media-link {
 
     margin-top: 10px;
 
-    font-family: 'Pixelify Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
-    line-height: 29px;
     text-align: center;
 
     color: #FFFFFF;

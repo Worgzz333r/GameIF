@@ -1,0 +1,425 @@
+body {
+    margin: 0;
+    font-family: "Quando", serif;
+    font-style: normal;
+}
+
+
+/* HEADER-CSS */
+
+header .header-bg {
+    position: relative;
+    background: url(../Content/game-pages/Terraria-background.png);
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 100%;
+    height: 683px;
+
+    box-shadow: 0px 30px 52px 4px #05152D;
+    z-index: 5;
+}
+
+header .menu-bg {
+    position: fixed;
+    font-family: 'Pixelify Sans';
+    font-style: normal;
+
+    top: 0px;
+    width: 100%;
+    height: 80px;
+
+    background: #2E3344;
+    z-index: 7;
+}
+
+header .logo-png {
+    position: absolute;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.50));
+
+    height: 80px;
+
+    left: 107px;
+}
+
+header .name {
+    position: absolute;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.50));
+
+    top: 17px;
+    left: 183px;
+
+    font-weight: 700;
+    font-size: 36px;
+
+    color: #FFFFFF;
+}
+
+header .main-menu-bg {
+    position: absolute;
+    width: 600px;
+    height: 50px;
+
+    top: 13px;
+    left: 850px;
+    background: rgba(88, 97, 118, 0.52);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.50));
+    border-radius: 53px;
+}
+
+header .main-page-btn {
+    top: 14px;
+    left: 46px;
+}
+
+header .new-games-btn {
+    top: 14px;
+    left: 225.03px;
+}
+
+header .about-btn {
+    top: 14px;
+    left: 404.06px;
+}
+
+header .btn {
+    box-sizing: border-box;
+    position: absolute;
+
+    width: 150px;
+    height: 21.43px;
+
+    border: 0.5px solid #FFFFFF;
+    border-radius: 17px;
+    background-color: transparent;
+    /* btn-text  */
+
+    font-family: 'Pixelify Sans';
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+header .link{
+    color: white;
+    text-decoration: none;
+}
+
+header .link:hover {
+    color: #27D6B6;
+}
+
+header .link:active {
+    color: #7D90BD;
+}
+
+header .g-link{
+    color: #F3C929;
+    text-decoration: none;
+}
+
+header .g-link:hover{
+    text-decoration: underline 1px solid #F3C929;
+}
+
+header .game-title {
+    position: relative;
+
+    top: 140px;
+    left: 20px;
+
+    font-weight: bold;
+    font-size: 45px;
+    text-align: left;
+
+    color: #DCDEC1;
+}
+
+header .list-menu-bg {
+    position: relative;
+    width: 170px;
+    height: 252px;
+
+    top: 281px;
+    left: 37px;
+    text-align: left;
+
+    background: rgba(0, 0, 0, 0.41);
+    border-radius: 15px;
+}
+
+header .guides-list {
+    position: relative;
+    left: 0px;
+}
+
+header .list-title {
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+header .list-p {
+    font-size: 20px;
+    text-align: left;
+
+    color: #F3C929;
+
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+header .req-p {
+    list-style: none;
+    margin-top: 15px;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+}
+
+header .req-title {
+    font-weight: 600;
+    font-size: 20px;
+    text-shadow: 1px 1px 5px black;
+}
+
+header .system-requirements {
+    position: absolute;
+
+    top: 215px;
+    left: 1000px;
+
+    width: 470px;
+    height: 384px;
+
+    font-weight: 400;
+    font-size: 17px;
+
+    color: white;
+}
+
+.os {
+    color: #FFBF91;
+}
+
+.processor {
+    color: #FFFBA4;
+}
+
+.memory {
+    color: #BBFBB5;
+}
+
+.graphics {
+    color: #A0E2FF;
+}
+
+.directx {
+    color: #B8BBFF;
+}
+
+.storage {
+    color: #D0A1FF;
+}
+
+
+
+/* MAIN-CSS */
+
+
+
+main .main-bg {
+    width: 100%;
+    height: max-content;
+
+    padding-bottom: 97px;
+
+    background: url(../Content/game-pages/general/main-background.png);
+
+    z-index: 3;
+}
+
+main .title {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    margin: 0px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 48px;
+
+    color: #FFFFFF;
+}
+
+main .bold {
+    font-weight: bold;
+}
+
+main .text {
+
+    font-weight: medium;
+    font-size: 20px;
+
+    color: #FFFFFF;
+}
+
+main .text-container {
+    margin-left: 40px;
+}
+
+main .outer-p {
+    width: 900px;
+}
+
+main .inner-p {
+    margin-left: 20px;
+    width: 850px;
+}
+
+main .lower-title {
+    padding-top: 10px;
+    font-weight: 600;
+}
+
+main .lower-p {
+    width: 1400px;
+    margin-left: 20px;
+}
+
+main .sec-lower-p {
+    margin: 20px;
+    width: 1100px;
+}
+
+main .game-card-panel {
+    position: absolute;
+    left: 1150px;
+    text-align: center;
+
+    width: 251px;
+    height: max-content;
+    border-radius: 15px;
+    filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.5));
+
+    background-color: #0A0122;
+    font-size: 13px;
+}
+
+main .game-card-img {
+    border-radius: 15px 15px 0px 0px;
+}
+
+main table {
+    color: white;
+}
+
+main td {
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+main .left-td{
+    color: #FF13D9;
+}
+
+
+
+/* FOOTER-CSS */
+
+footer .footer-bg {
+    width: 100%;
+    height: 603px;
+    left: 0px;
+    top: 1662px;
+
+    background: url(../Content/game-pages/general/footer-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+footer .logo {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    margin-top: 100px;
+
+    width: 360px;
+}
+
+footer .logo-png {
+    width: 350px;
+}
+
+footer .name {
+    font-weight: 700;
+    font-size: 64px;
+
+    color: #000000;
+}
+
+footer .about {
+    position: relative;
+    width: 299px;
+    height: 246.52px;
+    left: 994px;
+    padding-top: 211px;
+
+
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+footer .social-media-link {
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+    margin-top: 10px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+footer .link-png {
+    height: 36px;
+}
+
+footer .social-link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+footer .social-link:hover {
+    color: #27D6B6;
+    text-decoration: solid underline #27D6B6 2px;
+}
+
+footer .social-link:active {
+    color: #7D90BD;
+    text-decoration: solid underline #7D90BD 2px;
+}
+
+footer .made-by {
+    margin-top: 120px;
+    margin-right: 5px;
+
+    font-weight: 700;
+    font-size: 13px;
+
+    text-align: right;
+
+    color: #FFFFFF;
+}
